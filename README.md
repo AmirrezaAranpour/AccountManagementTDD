@@ -44,6 +44,8 @@ void تاریخچه_بعد_از_محاسبه() {
 ```
 
 *اجرای این تست روی نسخهٔ قبلی باعث شکست (RED) می‌شود و اشکال را آشکار می‌کند.*
+![image](https://github.com/user-attachments/assets/9a7ef9a0-0141-422b-af57-c484ac724a57)
+
 
 ---
 
@@ -78,6 +80,8 @@ public static int calculateBalance(List<Transaction> transactions) {
 | وضعیت پیش از اصلاح | وضعیت پس از اصلاح |
 |--------------------|-------------------|
 | ۷ ✅ + ۱ ❌ *(تست جدید)* | ۸ ✅ *(همهٔ تست‌ها سبز)* |
+
+![image](https://github.com/user-attachments/assets/5d041b9a-87a5-4d32-a561-decaa307b418)
 
 ---
 
