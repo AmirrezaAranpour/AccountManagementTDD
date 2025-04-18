@@ -75,6 +75,16 @@ public class AccountBalanceCalculatorTest {
     }
 
     @Test
+    void testNegativeAmountShouldThrow() {
+        List<Transaction> transactions = Collections.singletonList(
+                new Transaction(TransactionType.DEPOSIT, -100));
+        assertThrows(IllegalArgumentException.class,
+                () -> AccountBalanceCalculator.calculateBalance(transactions),
+                "Negative amounts must be rejected");
+    }
+
+
+    @Test
     void testTransactionHistoryAfterDeposits() {
         // Perform deposits
         List<Transaction> transactions = Arrays.asList(
