@@ -9,26 +9,27 @@ public class AccountBalanceCalculator {
 
     // Method to calculate balance based on transactions
     public static int calculateBalance(List<Transaction> transactions) {
-        if (transactions == null) {
+        if (transactions == null)
             throw new IllegalArgumentException("Transaction list cannot be null");
-        }
 
         int balance = 0;
         for (Transaction t : transactions) {
-            // ----------  added guard clause  ----------
-            if (t.getAmount() < 0) {
+            if (t.getAmount() < 0)
                 throw new IllegalArgumentException("Transaction amount cannot be negative");
-            }
-            // ------------------------------------------
-            if (t.getType() == TransactionType.DEPOSIT) {
+
+            if (t.getType() == TransactionType.DEPOSIT)
                 balance += t.getAmount();
-            } else { // WITHDRAWAL
+            else // WITHDRAWAL
                 balance -= t.getAmount();
-            }
         }
+
+        /* ---------- NEW ---------- */
+        // storing the last set of transactions
+        transactionHistory = new ArrayList<>(transactions);
+        /* ------------------------- */
+
         return balance;
     }
-
 
     // Method to get the transaction history
     public static List<Transaction> getTransactionHistory() {
