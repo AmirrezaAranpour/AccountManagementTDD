@@ -27,9 +27,9 @@ void testNegativeAmountShouldThrow() {
                  "Negative amounts must be rejected");
 }
 ```
-اسکرین شات بخش
+اسکرین شات این بخش:
+![photo_5769504052495895967_y](https://github.com/user-attachments/assets/a19d519e-5b97-411c-85e6-0025a1c6e113)
 
-![alt text](photo_5769504052495895967_y-1.jpg)
 
 ### ۲‑۲. اصلاح متد `calculateBalance`
 
@@ -66,7 +66,8 @@ Tests run: 8, Failures: 0, Errors: 0, Skipped: 0
 BUILD SUCCESS
 ```
 
-![alt text](photo_5769504052495895968_y-1.jpg)
+![photo_5769504052495895968_y](https://github.com/user-attachments/assets/8ceb425c-5c26-4e84-8595-002bc27da968)
+
  اکنون تست افزوده‌شده و تمامی تست‌های قبلی با موفقیت عبور می‌کنند.
 
 
