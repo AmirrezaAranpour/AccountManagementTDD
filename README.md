@@ -129,7 +129,8 @@ BUILD SUCCESS
 همۀ ۱۱ تست (شامل سه تست TDD) اکنون سبز هستند.
 
 ---
-![photo_5769504052495895972_y](https://github.com/user-attachments/assets/31024174-d6d1-44ae-94f7-7840c2d11428)
+![photo_5769504052495895972_y](https://github.com/user-attachments/assets/ad8ab08a-8f65-40ad-9111-950d05a47303)
+
 
 
 ## ۳. پاسخ پرسش چهار – مزیت تست قبل از کد
